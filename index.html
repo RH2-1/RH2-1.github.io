@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riyad - Creative Director</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fixed-bg">
+        <canvas id="frameCanvas"></canvas>
+        <div class="hero-shadow"></div>
+    </div>
+
+            <header class="navbar">
+        <div class="logo">Riyad</div>
+        <nav class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <a href="mailto:reyadhasan100az@gmail.com" class="btn-primary">Get in touch &rarr;</a>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <p class="subtitle">Hey, I'm a</p>
+                <h1 class="title">Bug Bounty<br>Hunter &<br>Security<br>Researcher</h1>
+            </div>
+            <div class="hero-right">
+                <h2>Finding vulnerabilities<br>before attackers do.</h2>
+                <p>I specialize in web security,<br>bug bounty hunting and<br>offensive research.</p>
+            </div>
+        </div>
+        
+        <div class="hero-bottom">
+            <div class="service-item">
+                <span class="number">01</span>
+                <span class="name">Web Application Security</span>
+            </div>
+            <div class="service-item">
+                <span class="number">02</span>
+                <span class="name">Bug Bounty Hunting</span>
+            </div>
+            <div class="service-item">
+                <span class="number">03</span>
+                <span class="name">Python Automation</span>
+            </div>
+            <div class="service-item">
+                <span class="number">04</span>
+                <span class="name">Security Research</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <p>Learning Through Practice<br>& Security Research</p>
+        <div class="brand-logos">
+            <div class="brand"><span class="icon circle"></span> PortSwigger</div>
+            <div class="brand"><span class="icon hourglass"></span> OWASP</div>
+            <div class="brand"><span class="icon half-circle"></span> Hack The Box</div>
+            <div class="brand"><span class="icon dots"></span> GitHub</div>
+        </div>
+    </section>
+
+    <section class="behind-designs" id="about">
+        <div class="bd-header">
+            <div class="bd-left">
+                <p class="section-subtitle">About Me</p>
+                <h2 class="section-title">Building Secure<br>Applications Through<br>Ethical Hacking</h2>
+            </div>
+            <div class="bd-right">
+                <p class="description">I'm Riyad, a cybersecurity enthusiast<br>focused on bug bounty hunting,<br>web security and automation.</p>
+                <div class="action-area">
+                    <p class="small-text">Security Research &<br>Collaboration</p>
+                    <a href="mailto:reyadhasan100az@gmail.com" class="btn-primary">Get in touch &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-grid">
+            <div class="grid-item img-1">
+                <svg class="grid-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 5 L52 13 V29 C52 43 43 53 30 57 C17 53 8 43 8 29 V13 Z" stroke="rgba(255,255,255,0.7)" stroke-width="1.4"/>
+                    <circle cx="30" cy="27" r="6" stroke="rgba(255,255,255,0.7)" stroke-width="1.4"/>
+                    <path d="M30 33 V42" stroke="rgba(255,255,255,0.7)" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+                <div class="grid-caption">
+                    <span class="grid-title">Web Application Security</span>
+                    <span class="grid-sub">Finding what shouldn't be there</span>
+                </div>
+            </div>
+            <div class="grid-item img-2">
+                <svg class="grid-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="8" y="12" width="44" height="32" rx="3" stroke="rgba(255,255,255,0.7)" stroke-width="1.4"/>
+                    <path d="M15 22 L22 27 L15 32" stroke="rgba(255,255,255,0.7)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M27 33 H38" stroke="rgba(255,255,255,0.7)" stroke-width="1.4" stroke-linecap="round"/>
+                </svg>
+                <div class="grid-caption">
+                    <span class="grid-title">Python Automation</span>
+                    <span class="grid-sub">Scripting the repeatable away</span>
+                </div>
+            </div>
+            <div class="grid-item img-3">
+                <svg class="grid-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="26" cy="26" r="15" stroke="rgba(255,255,255,0.7)" stroke-width="1.4"/>
+                    <path d="M37 37 L52 52" stroke="rgba(255,255,255,0.7)" stroke-width="1.4" stroke-linecap="round"/>
+                    <circle cx="26" cy="26" r="3.5" fill="rgba(255,255,255,0.5)"/>
+                </svg>
+                <div class="grid-caption">
+                    <span class="grid-title">Security Research</span>
+                    <span class="grid-sub">Reading between the responses</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <p class="section-subtitle">Selected Work</p>
+            <h2 class="section-title">Tools & Research<br>Worth Looking At</h2>
+        </div>
+
+        <div class="project-list">
+            <a href="https://github.com/RH2-1/RH2-Enum" target="_blank" rel="noopener" class="project-card">
+                <div class="project-top">
+                    <span class="project-index">01</span>
+                    <span class="cta-icon">&#8599;</span>
+                </div>
+                <h3 class="project-name">RH2 Enum</h3>
+                <p class="project-desc">A modular Python authentication enumeration framework built for real-world assessments — pluggable detection modules, baseline comparison, and timing-based analysis.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Auth Security</span>
+                    <span>CLI Tool</span>
+                </div>
+            </a>
+
+            <div class="project-card project-card--wip">
+                <div class="project-top">
+                    <span class="project-index">02</span>
+                    <span class="wip-badge">Under Work</span>
+                </div>
+                <h3 class="project-name">VulnLab</h3>
+                <p class="project-desc">A fully scaffolded, intentionally vulnerable web app for OWASP Top 10 training — ~40 toggleable vulnerability modules, a CTF challenge mode, and a full admin panel.</p>
+                <div class="project-tags">
+                    <span>Node.js</span>
+                    <span>OWASP Top 10</span>
+                    <span>Docker</span>
+                </div>
+            </div>
+        </div>
+        <p class="project-note">VulnLab's repo isn't public yet — check back soon.</p>
+    </section>
+
+    <section class="writeups" id="writeups">
+        <div class="writeups-inner">
+            <p class="section-subtitle">Writeups</p>
+            <h2 class="section-title">Coming Soon</h2>
+            <p class="writeups-text">Bug bounty and CTF writeups are in progress. In the meantime, follow along on <a href="https://x.com/isnt_arthur" target="_blank" rel="noopener">X</a> for updates as they drop.</p>
+        </div>
+    </section>
+
+    <section class="error-404">
+        <a href="javascript:history.back()" class="edge-nav left">
+            <span class="line"></span> BACK
+        </a>
+        <a href="#hero" class="edge-nav right">
+            HOME <span class="line"></span>
+        </a>
+        
+        <div class="error-content">
+            <a href="#hero" class="btn-outline">BACK HOME</a>
+            <div class="error-title-wrapper">
+                <h1 class="error-title">404</h1>
+                <div class="vertical-text">PAGE NOT FOUND</div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-col col-about">
+                <p>Riyad is an independent<br>bug bounty hunter and<br>security researcher.</p>
+            </div>
+            <div class="footer-col col-explore">
+                <h4>Explore</h4>
+                <a href="#projects">Projects</a>
+                <a href="#writeups">Writeups</a>
+                <a href="mailto:reyadhasan100az@gmail.com">Contact</a>
+            </div>
+            <div class="footer-col col-social">
+                <h4>Follow me</h4>
+                <div class="social-grid">
+                    <a href="https://x.com/isnt_arthur" target="_blank" rel="noopener">X @isnt_arthur</a>
+                    <a href="https://instagram.com/rzz_arthur" target="_blank" rel="noopener">IG @rzz_arthur</a>
+                    <a href="mailto:reyadhasan100az@gmail.com">Email reyadhasan100az@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-col col-cta">
+                <a href="mailto:reyadhasan100az@gmail.com" class="cta-block">
+                    <div class="cta-header">
+                        <span class="cta-title" style="color: #ff4500;">Work With Riyad</span>
+                        <span class="cta-icon" style="background: #ff4500; color: #fff;">&#8599;</span>
+                    </div>
+                    <span class="cta-sub">Security Research & Collaboration</span>
+                </a>
+                <div class="cta-divider"></div>
+                <a href="https://github.com/RH2-1/RH2-Enum" target="_blank" rel="noopener" class="cta-block">
+                    <div class="cta-header">
+                        <span class="cta-title">RH2 Enum</span>
+                        <span class="cta-icon">&#8599;</span>
+                    </div>
+                    <span class="cta-sub">Python Security Framework</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <h1 class="huge-text">Riyad</h1>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="fb-left">
+                <span>&copy; Riyad <span id="currentYear">2026</span></span>
+                <a href="mailto:reyadhasan100az@gmail.com">Privacy Policy</a>
+            </div>
+            <div class="fb-right">
+                <span>Bangladesh</span>
+                <span id="bdTime">--:--</span>
+                <span>Bug Hunting</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frames.js"></script>
+    <script src="animation.js"></script>
+    <script src="cursor.js"></script>
+</body>
+</html>
