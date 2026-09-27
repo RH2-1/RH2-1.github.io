@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RH2 VICTIM SHOW CANONICAL</title>
+    <link>https://pod.link/rh2-victim-canonical</link>
+    <language>en-us</language>
+    <description>Researcher-controlled canonical feed ('victim'). No real content.</description>
+    <itunes:author>RH2 VICTIM PUBLISHER</itunes:author>
+    <itunes:owner><itunes:name>RH2 VICTIM PUBLISHER</itunes:name><itunes:email>victim-publisher@example.invalid</itunes:email></itunes:owner>
+    <atom:link rel="self" href="https://rh2-1.github.io/rh2_victim.xml" type="application/rss+xml"/>
+    <item><title>Ep V1</title><guid>rh2-v-1</guid><enclosure url="https://rh2-1.github.io/audio/v1.mp3" length="1" type="audio/mpeg"/></item>
+  </channel>
+</rss>
