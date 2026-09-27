@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RH2 NO-EMAIL SHOW</title>
+    <link>https://pod.link/rh2-noemail</link>
+    <language>en-us</language>
+    <description>Researcher-controlled feed with NO itunes:owner email, to observe verification-email fallback.</description>
+    <itunes:author>RH2 NOEMAIL PUBLISHER</itunes:author>
+    <atom:link rel="self" href="https://rh2-1.github.io/rh2_noemail.xml" type="application/rss+xml"/>
+    <item><title>Ep N1</title><guid>rh2-n-1</guid><enclosure url="https://rh2-1.github.io/audio/n1.mp3" length="1" type="audio/mpeg"/></item>
+  </channel>
+</rss>
