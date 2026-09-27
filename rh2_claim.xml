@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RH2 CLAIM TARGET SHOW</title>
+    <link>https://pod.link/rh2-claim</link>
+    <language>en-us</language>
+    <description>Researcher-controlled feed used to observe claim verification email routing.</description>
+    <itunes:author>RH2 CLAIM PUBLISHER</itunes:author>
+    <itunes:owner><itunes:name>RH2 CLAIM PUBLISHER</itunes:name><itunes:email>rh2claimprobe@uberip.com</itunes:email></itunes:owner>
+    <atom:link rel="self" href="https://rh2-1.github.io/rh2_claim.xml" type="application/rss+xml"/>
+    <item><title>Ep C1</title><guid>rh2-c-1</guid><enclosure url="https://rh2-1.github.io/audio/c1.mp3" length="1" type="audio/mpeg"/></item>
+  </channel>
+</rss>
