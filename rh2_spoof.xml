@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RH2 SPOOF SHOW</title>
+    <link>https://pod.link/rh2-spoof</link>
+    <language>en-us</language>
+    <description>Researcher-controlled spoof feed. Declares a canonical self-link to the victim feed.</description>
+    <itunes:author>RH2 SPOOF PUBLISHER</itunes:author>
+    <itunes:owner><itunes:name>RH2 SPOOF PUBLISHER</itunes:name><itunes:email>spoof-publisher@example.invalid</itunes:email></itunes:owner>
+    <atom:link rel="self" href="https://rh2-1.github.io/rh2_victim.xml" type="application/rss+xml"/>
+    <item><title>Ep S1</title><guid>rh2-s-1</guid><enclosure url="https://rh2-1.github.io/audio/s1.mp3" length="1" type="audio/mpeg"/></item>
+  </channel>
+</rss>
